@@ -17,3 +17,28 @@ document.addEventListener('scroll', function(e) {
 
 });
 
+
+let ms = document.getElementsByTagName('g');
+console.log(ms);
+let array = [];
+for (let i = 2; i < ms.length; i++) {
+    if (ms[i].style.display === 'block') {
+        array.push(ms[i]);
+    }
+}
+
+console.log(array);
+
+
+function intervallo () {
+    let interval = setInterval(function() {
+        let numero = Math.floor((Math.random()) * array.length);
+       
+        
+        array[numero].classList.toggle('blink');
+        let puntati = document.getElementsByClassName('blink');
+        
+    }, 10)
+}
+
+intervallo();
