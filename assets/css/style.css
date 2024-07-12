@@ -7,6 +7,16 @@ body {
 
 }
 
+.green {
+    background-color: #1a8917;
+    transition: background-color 1s linear 0s;
+}
+
+.white {
+    background-color: white;
+    transition: background-color 1s linear 0s;
+}
+
 p,a {
     color: #757575;
 }
@@ -50,6 +60,7 @@ button {
     padding: 1em 1.5em;
     border: none;
     border-radius: 30px;
+    
 }
 
 /* hero */
