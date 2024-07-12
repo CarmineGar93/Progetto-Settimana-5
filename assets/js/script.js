@@ -15,4 +15,5 @@ document.addEventListener('scroll', function(e) {
         button.classList.remove('green');
     }
 
-})        
+});
+
