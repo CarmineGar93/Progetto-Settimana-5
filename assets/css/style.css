@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    
+
+
+}
+
+p,a {
+    color: #757575;
+}
+
+/* header */
+
+header, section#hero {
+    background-color: #ffc017;
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+header {
+    justify-content: space-between;
+    padding: 1em 5em;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center; 
+}
+
+header nav {
+    display: flex;
+   
+}
+
+header nav ul li {
+    margin-right: 1em;
+    
+    
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 30px;
+}
+
+/* hero */
+
+#hero {
+    justify-content: space-between;
+    padding-left: 5em;
+    margin-bottom: 2em;
+}
+
+#heroTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+h1 {
+    font-family: 'Spectral', serif;
+    font-size: 4.5em;
+    font-weight: 500;
+    letter-spacing: -5px;
+}
+
+#heroTitle p {
+    margin: 1em 15em 2em 0;
+    color: black;
+}
+
+#heroTitle p span {
+    text-wrap: nowrap;
+}
+
+#heroTitle button {
+    padding: 0.5em 3em;
+    font-size: 0.7em;
+}
+
+#hero img {
+    width: 40%;
+}
+
+/* section trends */
+
+#trends {
+    padding: 0 5em;
+}
+
+#trendsTitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    font-weight: 900;
+    font-size: 0.7em;
+    margin-left: 0.5em;
+    letter-spacing: 2px;
+}
+
+#trendsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.trendArticle {
+    width: 31%;
+    flex-grow: 1;
+    display: flex;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.trendNumber {
+    font-weight: bold;
+    font-size: 1.7em;
+    margin-right: 0.5em;
+    opacity: 0.7;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    
+}
+
+.author h5 {
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+.author img {
+    border-radius: 50%;
+    max-width: 12%;
+    margin-right: 0.3em;
+    
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 0.9em;
+    margin: 0.5em 0;
+}
+
+.trendsContent p {
+    font-size: 0.7em;
+}
+
+#container {
+    display: flex;
+    padding: 2em 5em;
+}
+
+/*section news */
+
+#bestNews {
+    width: 65%;
+    margin-right: 2em;
+}
+.news {
+    display: flex;
+    margin-bottom: 2em;
+    
+}
+
+.newsText {
+    width: 65%;
+    margin-right: 1.5em;
+}
+
+.newsImage  {
+    width: 35%;
+}
+
+.newsImage img{
+    width: 100%;
+    min-height: 100%;
+    
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0.3em 0;
+}
+
+
+
+.newsFoot {
+    display: flex;
+    margin: 0.5em 0;
+    align-items: center;
+    font-size: 0.8em;
+    position: relative;
+}
+
+.newsFoot span {
+    background-color: rgba(211, 211, 211, 0.226);
+    padding: 0.2em 0.5em;
+    border-radius: 1em;
+    
+}
+
+.bookmark {
+    position: absolute;
+    right: 0;
+}
+
+/* section interest */
+
+#interestsAndLinks {
+    width: 33%;
+    height: fit-content;
+    position: sticky;
+    top: 100px;
+}
+
+h4 {
+    margin-bottom: 1em;
+}
+#interestContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em 0;
+}
+
+#interestContainer p {
+    border: 1px solid lightgray;
+    padding: 0.3em 0.6em;
+    border-radius: 0.2em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 0.8em;
+}
+
+#links ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin-right: 3em;
+}
+
+#links ul li {
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+    font-size: 0.8em;
+    
+
+}
+
+a {
+    text-decoration: none;
+}
