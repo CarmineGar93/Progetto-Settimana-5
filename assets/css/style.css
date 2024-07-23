@@ -43,6 +43,7 @@ header {
     position: sticky;
     top:0;
     z-index: 1;
+    transition: background-color 1s linear 0s;
 }
 
 header nav ul {
@@ -53,6 +54,7 @@ header nav ul {
 
 header nav {
     display: flex;
+    
    
 }
 
@@ -68,6 +70,7 @@ button {
     padding: 1em 1.5em;
     border: none;
     border-radius: 30px;
+    transition: background-color 1s linear 0s;
     
 }
 
